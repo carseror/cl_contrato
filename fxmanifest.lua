@@ -4,7 +4,8 @@ game 'gta5'
 lua54 'yes'
 
 files {
-    'locales/*.json'
+    'locales/es.json',
+    'locales/en.json'
 }
 
 shared_scripts {
@@ -14,7 +15,7 @@ shared_scripts {
 
 client_scripts {
     'framework/**/client.lua',
-    'config/cl_edit.lua',
+    'config/cl_config.lua',
     'client/client.lua'
 
 }
